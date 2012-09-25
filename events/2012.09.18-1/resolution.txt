@@ -1,0 +1,4 @@
+when: Tue Sep 18 12:30:17 MDT 2012
+
+Allowed downtime duration elapsed,  Database update did not progress as expected, change was aborted.  We will re-group and perform this maintenence in a different way.
+

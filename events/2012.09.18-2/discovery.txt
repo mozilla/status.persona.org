@@ -1,0 +1,4 @@
+when: Tue Sep 18 14:21:07 MDT 2012
+
+A second attempt at live altering of schema.  Allowing a maximum of 30 seconds of partial downtime (only affecting new user signups and email verifications).
+

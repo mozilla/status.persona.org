@@ -1,0 +1,3 @@
+when: Tue Sep 18 14:21:37 MDT 2012
+
+Live alter of schema did not progress as expected, aborted after 30s.  Again, we will regroup.

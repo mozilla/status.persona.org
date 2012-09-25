@@ -1,0 +1,4 @@
+when: Tue Sep 18 12:21:07 MDT 2012
+
+Beginning a planned partial outage to update database schema.  During this period new user signups and verifications will fail, but the rest of the service will function normally.  Expecting ~3 minutes of outage.  Maximum outage 10 minutes.
+
