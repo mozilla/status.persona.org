@@ -1,0 +1,5 @@
+when: Tue Aug 14 02:58:28 MDT 2012
+
+A partial outage was discovered in one of our colocation facilities.
+New user sign up and verification of email links is not working
+properly for a half of users.  Investigating...

@@ -1,0 +1,4 @@
+when: Tue Aug 14 03:18:08 MDT 2012
+
+dbwriters database connection dropped due to errant load balancer configuration, introduced by human error.  Situation resolved and service is fully restored.
+
