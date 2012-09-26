@@ -47,3 +47,14 @@ and `resolution(.txt)?`.
 
 Scripts in `scripts/` are responsible for validating the pile of files in `events/`,
 turning them into JSON that the webpage (under `html/` can render) 
+
+## hacking on it
+
+1. clone it
+2. npm install
+3. mkdir html/data 
+4. scripts/to_json.js > html/data/1.json
+5. scripts/run.js
+6. open http://127.0.0.1:8080/
+7. hack on html/*
+
