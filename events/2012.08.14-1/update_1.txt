@@ -1,1 +1,3 @@
+when: Tue Aug 14 03:12:08 MDT 2012
+
 Cause isolated - dbwqriters in SCL2 colo have no connection to database...
