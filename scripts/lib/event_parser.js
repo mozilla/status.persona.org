@@ -1,13 +1,7 @@
 var fs = require('fs'),
-  path = require('path');
+  path = require('path'),
+moment = require('moment');
 
-// XXX implement me
-function parseDate(d) {
-  console.log("parse date?", d);
-  return new Date(d);
-}
-
-// XXX implement me
 function readUpdate(filePath) {
   var contents = fs.readFileSync(filePath).toString();
 
@@ -17,16 +11,15 @@ function readUpdate(filePath) {
   var when = null;
   if (m) {
     contents = contents.replace(re, "");
-    console.log(m);
-    when = parseDate(m[1]);
+    when = new Date(moment(m[1].trim()).toDate());
   } else {
     // use file time?
     // try to guess update time?
   }
 
   return {
-    when: when,
-    msg: contents.trim()
+    when: when.getTime() / 1000,
+    msg: contents.trim().replace(/\n/g, " ")
   };
 }
 
@@ -76,10 +69,8 @@ function massageEvent(data) {
   });
 
   // sort updates and attach them
-  console.log(updates);
-
   o.updates = updates.sort(function(l,r) {
-    return r.when > l.when;
+    return r.when < l.when;
   });
 
   return o;
@@ -113,7 +104,7 @@ function parseSingleEvent(dir, cb) {
       return cb("couldn't understand event '"+dir+"': " + e);
     }
 
-    console.log(data);
+    cb(null, data);
   });
 }
 
@@ -127,7 +118,11 @@ exports.read = function(dir, cb)  {
     (function readNextEvent() {
       if (!paths.length) {
         // now sort events by chronological order and return them
-        return cb("not implemented");
+        var eventArray = [];
+        Object.keys(eventsByStartTime).sort().forEach(function(k) {
+          eventArray.push(eventsByStartTime[k]);
+        });
+        return cb(null, eventArray);
       }
       var p = paths.shift();
       parseSingleEvent(path.join(dir, p), function(err, eventData) {
@@ -137,5 +132,4 @@ exports.read = function(dir, cb)  {
       });
     })();
   });
-
 };
