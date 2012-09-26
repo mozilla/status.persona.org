@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Persona System Status</title>
+  <link rel="stylesheet" href="style.css" type="text/css">
+  <link rel="stylesheet" href="fonts/fonts_common.css" type="text/css">
+  <script src="modernizr.min.js"></script>
+  <script src="jquery-1.8.2.min.js"></script>
+  <script src="moment.min.js"></script>
+  <script src="status.js"></script>
+</head>
+<body>
+  <header>
+    <h1 class="subtitle">System Status</h1>
+    <div class="logo"></div>
+  </header>
+  <div id="content">
+    <section id="right_now">
+      <div class="sad">
+        <div class="overview">
+          Persona is <span class="status">having trouble</span>!
+        </div>
+        <div class="details">
+          The issue began about <span class="timespan"></span>.
+        </div>
+      </div>
+      <div class="happy">
+        <div class="overview">
+          Persona is <span class="status">up and running</span>!
+        </div>
+        <div class="details">
+          <span class="value"></span>% uptime over the last 30 days.
+        </div>
+      </div>
+    </section>
+
+    <section id="history">
+      <h2>Incident History</h2> 
+      <div class="events">
+      </div>
+    </section>
+  </div>
+  <div id="templates">
+    <div class="event">
+      <div class="summary">
+        <div class="when">
+        </div>
+        <div class="duration">
+        </div>
+      </div>
+      <div class="updates">
+      </div>
+    </div>
+    <div class="update">
+      <div class="when">
+      </div>
+      <div class="comment">
+      </div>
+    </div>
+  </div>
+</body>
+</html>

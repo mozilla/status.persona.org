@@ -1,0 +1,145 @@
+body {
+    background-color: #6a7b86;
+    background-image: url("/i/gradient-bg.png"), url("/i/grain.png");
+    background-position: center top, center top;
+    background-repeat: repeat-x, repeat;
+    color: #fff;
+
+    font: 14px/21px 'Open Sans', "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;
+    overflow-y: auto;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 300;
+}
+
+header .logo {
+    background: url("/i/persona-logo-wordmark.png") 0 0 no-repeat;
+    width: 205px;
+    height: 50px;
+}
+
+body > * {
+    width: 650px;
+    margin: auto;
+}
+
+header h1 {
+    float: right;
+    margin: 0;
+    margin-top: 10px;
+}
+
+header {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+#content {
+/*    text-shadow: 1px 1px 0 rgba(255,255,255,0.5); */ 
+    background-color: #fff;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    color: #444;
+    padding: 50px;
+}
+
+section#right_now > div {
+    text-align: center;
+    display: none;
+}
+
+section#right_now .overview {
+    font-size: 24px;
+} 
+
+section#right_now .details {
+    font-size: 16px;
+    padding-top: 5px;
+
+} 
+
+#right_now .happy .status {
+    color: #494;
+}
+
+#right_now .sad .status {
+    color: #944;
+}
+
+#right_now .timespan {
+    font-style: italic;
+}
+
+#uptime_summary {
+    font-weight: 300;
+}
+
+#history {
+    margin-top: 40px;
+}
+
+#history h2 {
+    font-size: 20px;
+}
+
+#templates {
+    display: none;
+}
+
+.event {
+    width: 600px;
+    margin: auto;
+}
+
+.event .summary {
+    float: left;
+    text-align: right;
+    width: 150px;
+}
+
+.event .updates {
+    margin-left: 165px;
+    padding-left: 15px;
+    margin-bottom: 30px;
+    border-left: 1px solid grey;
+}
+
+.event .update {
+    margin-bottom: 7px;
+}
+
+.event .update .when {
+    background-color: #999;
+    color: #fff;
+    float: left;
+    font-size: .8em;
+    padding: 0px 5px;
+    margin-right: 5px;
+    border-radius: 5px;
+}
+
+.event .duration {
+    font-size: .7em;
+    float: right;
+    padding: 0px 5px;
+    color: #999;
+/*
+    border: 1px solid #999;
+    border-radius: 5px;
+*/
+}
+
+/*
+.event .duration.long {
+    color: #b99;
+}
+
+.event .duration.medium {
+    color: #d3cc1a;
+}
+
+.event .duration.short {
+    color: #9b9;
+}*/

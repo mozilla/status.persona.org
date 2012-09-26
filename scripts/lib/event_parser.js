@@ -18,7 +18,7 @@ function readUpdate(filePath) {
   }
 
   return {
-    when: when.getTime() / 1000,
+    when: Math.round(when.getTime() / 1000),
     msg: contents.trim().replace(/\n/g, " ")
   };
 }
@@ -70,7 +70,7 @@ function massageEvent(data) {
 
   // sort updates and attach them
   o.updates = updates.sort(function(l,r) {
-    return r.when < l.when;
+    return l.when > r.when;
   });
 
   return o;
@@ -120,7 +120,7 @@ exports.read = function(dir, cb)  {
         // now sort events by chronological order and return them
         var eventArray = [];
         Object.keys(eventsByStartTime).sort().forEach(function(k) {
-          eventArray.push(eventsByStartTime[k]);
+          eventArray.unshift(eventsByStartTime[k]);
         });
         return cb(null, eventArray);
       }
