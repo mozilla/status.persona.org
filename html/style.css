@@ -14,6 +14,12 @@ h1 {
     font-weight: 300;
 }
 
+ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
 header .logo {
     background: url("/i/persona-logo-wordmark.png") 0 0 no-repeat;
     width: 205px;
@@ -37,7 +43,7 @@ header {
 }
 
 #content {
-/*    text-shadow: 1px 1px 0 rgba(255,255,255,0.5); */ 
+/*    text-shadow: 1px 1px 0 rgba(255,255,255,0.5); */
     background-color: #fff;
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
     border-radius: 5px;
@@ -52,13 +58,13 @@ section#right_now > div {
 
 section#right_now .overview {
     font-size: 24px;
-} 
+}
 
 section#right_now .details {
     font-size: 16px;
     padding-top: 5px;
 
-} 
+}
 
 #right_now .happy .status {
     color: #494;
@@ -83,10 +89,6 @@ section#right_now .details {
 #history h2 {
     font-size: 23px;
 
-}
-
-#templates {
-    display: none;
 }
 
 .event {

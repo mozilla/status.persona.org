@@ -4,10 +4,11 @@
   <title>Persona System Status</title>
   <link rel="stylesheet" href="style.css" type="text/css">
   <link rel="stylesheet" href="fonts/fonts_common.css" type="text/css">
-  <script src="modernizr.min.js"></script>
-  <script src="jquery-1.8.2.min.js"></script>
-  <script src="moment.min.js"></script>
-  <script src="status.js"></script>
+  <script src="js/modernizr.min.js"></script>
+  <script src="js/jquery-1.8.2.min.js"></script>
+  <script src="js/moment.min.js"></script>
+  <script src="js/status.js"></script>
+  <script src="js/mustache.js"></script>
 </head>
 <body>
   <header>
@@ -35,28 +36,27 @@
     </section>
 
     <section id="history">
-      <h2>Incident History</h2> 
-      <div class="events">
-      </div>
+      <h2>Incident History</h2>
+      <ul class="events">
+      </ul>
     </section>
   </div>
-  <div id="templates">
-    <div class="event">
+
+  <script type="text/html" id="templateEvent">
+    <li class="event">
       <div class="summary">
-        <div class="when">
-        </div>
-        <div class="duration">
-        </div>
+        <div class="when">{{when}}</div>
+        <div class="duration {{duration_class}}">{{duration}}</div>
       </div>
-      <div class="updates">
-      </div>
-    </div>
-    <div class="update">
-      <div class="when">
-      </div>
-      <div class="comment">
-      </div>
-    </div>
-  </div>
+      <ul class="updates">
+        {{#updates}}
+          <li class="update">
+            <div class="when">{{when}}</div>
+            <div class="comment">{{comment}}</div>
+          </li>
+        {{/updates}}
+      </ul>
+    </li>
+  </script>
 </body>
 </html>
