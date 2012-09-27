@@ -10,12 +10,14 @@
   },
   "private": true,
   "scripts": {
-    "test": "mocha scripts/tests"
+    "test": "mocha scripts/tests",
+    "start": "node scripts/run"
   },
   "devDependencies": {
     "mocha": "1.5.0",
     "should": "1.2.0",
     "rss": "0.0.4",
-    "express": "*"
+    "express": "*",
+    "moment": "1.7.0"
   }
 }
