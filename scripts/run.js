@@ -5,4 +5,4 @@ const express = require('express'),
 
 var app = express()
   .use(express.static(path.join(__dirname, "..", "html")))
-  .listen(8080);
+  .listen(process.env.PORT || 8080);
