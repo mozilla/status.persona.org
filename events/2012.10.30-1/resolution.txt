@@ -1,0 +1,5 @@
+when: Tue Oct 30 13:33:00 PDT 2012
+
+Persona was rolled back to the previous version, fixing API problems.
+
+During this 2.5 hour window, some sites using Persona could have appeared broken in an infinite refresh loop, depending on how they were implemented.

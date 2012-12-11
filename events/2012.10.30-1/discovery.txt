@@ -1,0 +1,3 @@
+when: Tue Oct 30 10:55:00 PDT 2012
+
+A new version of the persona service was deployed, containing an undetected API regression.

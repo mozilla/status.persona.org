@@ -1,0 +1,3 @@
+when: Tue Oct 30 12:23:00 PDT 2012
+
+A community member reported that a persona site was broken, in an infinite refresh loop.
