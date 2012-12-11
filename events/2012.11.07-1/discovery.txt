@@ -1,0 +1,3 @@
+when: Wed Nov 07 08:04:00 PST 2012
+
+Our Santa Clara and Phoenix datacenters lost connectivity due to a network carrier failure. DB writers in Santa Clara were removed from service, impacting user traffic for 50% of users. Affected users were not able to create accounts, verify new accounts, or access management page features.

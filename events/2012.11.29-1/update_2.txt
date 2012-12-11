@@ -1,0 +1,3 @@
+when: Thu 29 Nov 2012 14:49:00 PST
+
+Mozilla Marketplace logins reported as failing in IRC
