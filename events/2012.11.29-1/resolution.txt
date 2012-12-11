@@ -2,4 +2,4 @@ when: Thu 29 Nov 2012 14:59:00 PST
 
 Service restored by routing traffic from Phoenix to Santa Clara.
 
-Planned load balancer maintenance led to an unexpected outage in the Phoenix datacenter, causing intermittent outages.
+Planned maintenance led to unexpected load balancer downtime in the Phoenix datacenter, causing intermittent outages.
