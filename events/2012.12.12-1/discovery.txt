@@ -1,0 +1,4 @@
+when: Wed Dec 12 14:00:00 PST 2012
+
+Today at 2PM PST we'll be performing a 5 minute maintenance on the production databases in order to improve the stability of the system. 
+During this window database writes will be disabled resulting in various features of persona being absent.
