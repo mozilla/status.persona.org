@@ -1,0 +1,3 @@
+when: Wed Dec 12 14:08:00 PST 2012
+
+We made DB changes to improve the stability of the system. During this time new user signups could be impacted.
