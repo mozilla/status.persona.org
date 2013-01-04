@@ -1,5 +1,5 @@
-when: Thu, 3 Jan 2013 14:35 PST
+when: Thu, 3 Jan 2013 14:37 PST
 
-All queued gmail.com emails were delivered between 2:35 and 2:37.
+All queued gmail.com emails were delivered over the course of the last two minutes.
 
 This is only a preliminary timeline. The actual cause and resolution are still unknown. We will update this timeline as soon as possible.
