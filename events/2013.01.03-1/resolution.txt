@@ -2,4 +2,8 @@ when: Thu, 3 Jan 2013 14:37 PST
 
 All queued gmail.com emails were delivered over the course of the last two minutes.
 
-This is only a preliminary timeline. The actual cause and resolution are still unknown. We will update this timeline as soon as possible.
+We recently moved production email to a new, isolated account, and all new accounts have throttling in place by default: a maximum of 50 emails per domain per hour were sent, and the rest were queued until the following hour. A combination of real user emails and Selenium tests pushed us well over the limit for the gmail.com domain.
+
+After our ticket was filed, an engineer at our email service removed the throttling from our new account, and the gmail queue was cleared rapidly.
+
+While we're confident we have isolated the cause of the incident, this is still a preliminary timeline. The actual duration is still unknown. We will update this timeline as soon as possible.
