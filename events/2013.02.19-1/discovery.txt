@@ -1,0 +1,3 @@
+when: Tue, 19 Feb 2013 12:11:47 PST
+
+A network issue at our SCL2 datacenter caused the dbwriter tier to go down, preventing writes to the database.
