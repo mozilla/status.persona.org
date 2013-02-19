@@ -1,0 +1,3 @@
+when: Tue, 19 Feb 2013 13:46 PST
+
+Now that the site has stabilized, we've re-enabled traffic at the SCL2 datacenter.
