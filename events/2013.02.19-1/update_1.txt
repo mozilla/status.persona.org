@@ -1,3 +1,0 @@
-when: Tue, 19 Feb 2013 12:17 PST
-
-Network issue resolved itself causing the dbwriter tier to become available again. https://bugzilla.mozilla.org/show_bug.cgi?id=842707

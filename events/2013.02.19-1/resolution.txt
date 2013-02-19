@@ -1,0 +1,4 @@
+when: Tue, 19 Feb 2013 12:17 PST
+
+Network issue resolved itself causing the dbwriter tier to become available again. We drained traffic for browserid.org at SCL2 between 12:13 and 12:16 but failed to drain traffic for presona.org. This was subsequently drained at 12:29. We will monitor the situation and bring traffic back to the SLC2 site when it appears safe.
+https://bugzilla.mozilla.org/show_bug.cgi?id=842707
