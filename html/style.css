@@ -132,7 +132,7 @@ section#right_now .details {
     margin-bottom: 7px;
 }
 
-.event .update .when {
+.event .update .when a {
     background-color: #999;
     color: #fff;
     float: left;
@@ -140,6 +140,7 @@ section#right_now .details {
     padding: 0px 5px;
     margin-right: 5px;
     border-radius: 5px;
+    text-decoration:none;
 }
 
 .event .duration {
