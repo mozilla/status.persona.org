@@ -40,6 +40,7 @@ $(document).ready(function() {
       for (var j=0, u; u = ev.updates[j]; j++) {
         viewData.updates[j] = {
           when: moment.unix(u.when).format('LT'),
+          anchor: u.when,
           comment: u.msg
         };
       }
