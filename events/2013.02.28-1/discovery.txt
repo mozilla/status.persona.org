@@ -1,0 +1,3 @@
+when: Thu, 28 Feb 2013 13:46:00 PST
+
+A network issue at our SCL2 datacenter caused blocked connectivity between our dbwriter tier and the db master, preventing writes to the database.
