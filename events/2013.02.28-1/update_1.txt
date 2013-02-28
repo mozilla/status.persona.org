@@ -1,0 +1,3 @@
+when: Thu, 28 Feb 2013 13:52:00 PST
+
+Drained all traffic from the affected datacenter, re-enabling writes to all users. https://bugzilla.mozilla.org/show_bug.cgi?id=842707
