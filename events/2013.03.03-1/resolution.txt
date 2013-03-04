@@ -1,0 +1,3 @@
+when: Sun, 3 Mar 2013 18:41:09 PST
+
+The network issue was resolved and connectivity restored. https://bugzilla.mozilla.org/show_bug.cgi?id=846485#c17
