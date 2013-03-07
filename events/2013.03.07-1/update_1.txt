@@ -1,5 +1,0 @@
-when: Thu Mar  7 15:20:00 PST 2013
-
-It appears that the email queue has been cleared.
-
-We are working with our vendor to confirm the queue is unstuck & assess the root cause.
