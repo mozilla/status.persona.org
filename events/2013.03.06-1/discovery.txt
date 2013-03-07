@@ -1,3 +1,3 @@
 when: Wed, 6 Mar 2013 16:09:48 PST
 
-A network issue at our SCL2 datacenter caused blocked connectivity between our dbwriter tier and the db master, preventing writes to the database for all users hitting the SCL2 datacenter. Users hitting the PHX1 datacenter are unaffected.
+A network issue at our SCL2 datacenter caused blocked connectivity between our dbwriter tier and the db master, preventing writes to the database for all users hitting the SCL2 datacenter. This resulted in 50% of users being unable to change their password or sign up. Sign-ins were unaffected.
