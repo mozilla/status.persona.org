@@ -1,0 +1,3 @@
+when: Wed, 6 Mar 2013 16:12:00 PST
+
+We have drained traffic from the affected datacenter and all users are now unaffected.
