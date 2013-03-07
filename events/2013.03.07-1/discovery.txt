@@ -1,3 +1,3 @@
-when: Thu Mar  7 15:05:00 PST 2013
+when: Thu Mar  7 14:35:00 PST 2013
 
-Persona emails have not been arriving for some users for the past 30 minutes. We are investigating.
+Persona email delivery has been interrupted. We are investigating.
