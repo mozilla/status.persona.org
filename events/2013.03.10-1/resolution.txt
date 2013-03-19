@@ -1,0 +1,3 @@
+when: Sun Mar 10 12:05:00 PST 2013
+
+Traffic has been drained from the affected datacenter. All persona services are again 100% available. Once the problem is resolved we will re-enable traffic at this location.

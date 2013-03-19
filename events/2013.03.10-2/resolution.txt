@@ -1,0 +1,3 @@
+when: Mon Mar 11 00:03:00 PST 2013
+
+Our PHX1 datacenter has been re-enabled in DNS and is accepting traffic. Persona is now again 100% available.

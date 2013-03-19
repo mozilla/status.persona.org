@@ -1,0 +1,3 @@
+when: Sun Mar 10 11:55:16 PST 2013
+
+A hardware failure in a host in our SCL2 datacenter has interupted persona service at this location. 50% of users will experience issues accessing persona.

@@ -1,0 +1,4 @@
+when: Sun Mar 10 23:59:00 PST 2013
+
+An unknown problem caused our DNS provider to drain traffic from our PHX1 datacenter. Since we'd blocked traffic to our SCL2 datacenter while we repaired the hardware failure, the loss of our second datacenter resulted in persona being unavailable.
+
