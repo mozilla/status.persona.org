@@ -1,0 +1,3 @@
+when: Sat Mar 30 10:47:00 PDT 2013
+
+PHX1 network connectivity was re-established, re-enabling write access.
