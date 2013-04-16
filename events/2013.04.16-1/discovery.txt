@@ -1,0 +1,3 @@
+when: Tue Apr 16 01:07:00 PDT 2013
+
+A fiber cut on one of our network transit providers interupted write access in Persona at one of our two datacenters (no new user signups, no password changes, etc.). 
