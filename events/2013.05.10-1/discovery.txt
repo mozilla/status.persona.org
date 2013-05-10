@@ -1,0 +1,7 @@
+when: Fri May 10 00:19:00 PDT 2013
+
+Network issues at our SCL2 datacenter has blocked data replication between our PHX1 and SCL2 datacenters. 
+This means that if during this outage someone changed their password or created an account hitting the PHX1 datacenter, 
+they would not have been able to login at the SCL2 datacenter (if DNS sent them there) until after the outage. SCL2 incorrectly
+had traffic being sent to it sporadically from 9:18 AM PDT to 10:37 AM PDT and then consistently from 10:37 AM PDT to 1:34 PM PDT. It's during these windows that the above potential problem would have been exhibited.
+
