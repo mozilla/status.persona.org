@@ -1,7 +1,7 @@
 ## Realtime Service Status for Mozilla Persona
 
 This repository holds the status reporting system for Mozilla Persona
-to be hosted at http://status.persona.org.  People who care about 
+to be hosted at http://personastatus.org.  People who care about 
 Persona can check the status of the service at that url.  People working
 on persona can report incidents by adding files to this repository.
 
