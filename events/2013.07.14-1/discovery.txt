@@ -1,0 +1,8 @@
+when: Sun July 14 23:43:00 PDT 2013
+
+Service at persona.org and browserid.org was interupted due to a server reboot. 
+This service interuption only affected the legacy URLs for Persona (e.g. https://browserid.org/ and https://persona.org/ ). 
+All sites using the current API endpoints ( https://verifier.login.persona.org/verify and https://login.persona.org/include.js ) were unaffected.
+Users using the current site ( https://login.persona.org ) were also unaffected.
+
+

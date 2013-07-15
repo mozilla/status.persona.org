@@ -1,0 +1,4 @@
+when: Sun July 14 23:49:00 PDT 2013
+
+Service was restored to persona.org and browserid.org following the server reboot. 
+We will mitigate this risk going forward by either changing our DNS load balancing provider to enable root zone DNS load balancing of AWS load balancer DNS CNAMEs or build our own hot swappable root zone system.
