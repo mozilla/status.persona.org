@@ -1,0 +1,5 @@
+when: Tue July 16 13:20:00 PDT 2013
+
+Due to a monitoring bug this database replication problem was not detected until now. We drained all traffic from the affected datacenter while the problem is fixed.
+Persona site functionality is now back to 100%
+

@@ -1,0 +1,5 @@
+when: Tue July 16 07:52:00 PDT 2013
+
+A second database host's disk filled due to a volume mounting issue. 33.3% of db requests are going to a database 
+that is not receiving replication updates.
+

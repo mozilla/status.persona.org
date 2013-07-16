@@ -1,0 +1,7 @@
+when: Mon July 15 15:02:00 PDT 2013
+
+One database host's disk filled due to a volume mounting issue. 16.6% of db requests are going to a database 
+that is not receiving replication updates which could result in unusual behavior such as a user changing a password
+but intermittently not being able to log in with the new password.
+
+
