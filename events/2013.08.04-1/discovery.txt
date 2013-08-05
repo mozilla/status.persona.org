@@ -1,4 +1,4 @@
-when: Sun August 4 23:12:00 PDT 2013
+when: Sun August 4 23:20:00 PDT 2013
 
 Traffic to https://browserid.org/ and https://persona.org/ was interupted. This only affected users typing root zones into their browsers and relying parties using the 
 old https://browserid.org/verify URL for verification (instead of https://verifier.login.persona.org/verify ). https://login.persona.org was functioning fine during this window.
