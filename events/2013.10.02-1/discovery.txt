@@ -1,0 +1,4 @@
+when: Wed Oct  2 23:56:00 PDT 2013
+
+Writes to Persona have stopped working. Password changes and new user account setups are not working. This is being caused by a hardware restart of our global master database
+
