@@ -1,4 +1,4 @@
-when: Sun Oct  6 10:00:00 PDT 2013
+when: Sun Oct  6 01:00:00 PDT 2013
 
 In order to resolve the repeated database failures we're going to take the server down to replace the bad hardware. This will result in a roughly 15 minute window during which password changes and new user account setups will not work.
 
