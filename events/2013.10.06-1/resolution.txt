@@ -1,3 +1,0 @@
-when: Sun Oct  6 01:15:00 PDT 2013
-
-Our database maintenance should have been completed by this point and Persona should be back at 100% functionality.
