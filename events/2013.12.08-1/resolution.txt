@@ -1,0 +1,3 @@
+when: Sun Dec  8 07:47:00 PST 2013
+
+Replication was re-established on the database and all transactions were carried over. Persona functionality is back to 100%

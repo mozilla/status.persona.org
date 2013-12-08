@@ -1,0 +1,4 @@
+when: Sun Dec  8 06:47:00 PST 2013
+
+One database slave in one datacenter lost it's ability to replicate data in the Persona system. This would result in the potential scenario where a user changed their password or created a new account and then wasn't able to login after they had done so.
+
