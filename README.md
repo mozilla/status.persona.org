@@ -32,7 +32,7 @@ and `resolution(.txt)?`.
 
 ## How you report an incident
 
-1. create a new directory for in in `events/`
+1. create a new directory for it in `events/`
 2. write a `discovery.txt` file
 3. commit it
 4. push it up to github
