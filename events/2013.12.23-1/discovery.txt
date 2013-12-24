@@ -1,0 +1,5 @@
+when: Mon Dec 23 13:00:00 PST 2013
+
+Our third-party email provider is experiencing delays in deliverying emails to Microsoft controlled email accounts such as hotmail.com, live.com, outlook.com and others. This will affect new user signups and password recovery emails for users with email addresses at Microsoft domains.
+
+
