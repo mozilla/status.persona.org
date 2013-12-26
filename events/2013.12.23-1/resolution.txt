@@ -1,0 +1,3 @@
+when: Thu Dec 26 06:14:00 PST 2013
+
+Our third party email provider has worked around the issue on their side and are following up with Microsoft to determine how to prevent this. All emails have flushed through and are now being delivered in real time.
