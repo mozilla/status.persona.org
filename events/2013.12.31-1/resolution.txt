@@ -1,0 +1,3 @@
+when: Tue Dec 31 15:39:00 PST 2013
+
+Replication has been re-established and Persona is functioning normally again.

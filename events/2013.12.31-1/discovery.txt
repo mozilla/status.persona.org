@@ -1,0 +1,4 @@
+when: Tue Dec 31 15:08:00 PST 2013
+
+One database in our Oregon datacenter has lost replication with the rest of the databases. New users or users who are changing their password may experience intermittent issues while we re-establish replication.
+
