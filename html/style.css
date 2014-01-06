@@ -97,10 +97,6 @@ section#right_now .details {
     font-style: italic;
 }
 
-#uptime_summary {
-    font-weight: 300;
-}
-
 #history {
     margin-top: 40px;
 }
