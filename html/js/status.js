@@ -2,7 +2,6 @@ $(document).ready(function() {
   $.get('data/1.json', function(events) {
     renderHappiness(events);
     renderEvents(events);
-    renderUptime(events);
   });
 
   function renderHappiness(events) {
@@ -49,22 +48,4 @@ $(document).ready(function() {
       $("#history .events").append($(domfrag));
     }
   }
-
-
-  function renderUptime(events) {
-    var outagesThisMonth = 0;
-
-    var secsInMonth = (30 * 24 * 60 * 60);
-    var thisMonth = (new Date()).getTime() / 1000 - secsInMonth;
-
-    for(var i=0, ev; ev = events[i]; i++) {
-      // if this was less than 30 days ago, let's count the duration toward our uptime calculation
-      if (ev.duration && ev.start > thisMonth) outagesThisMonth += ev.duration;
-
-    }
-    var pct = (100.0 * (secsInMonth - outagesThisMonth) / secsInMonth).toFixed(3);
-    $(".happy .details .value").text(pct);
-  }
-
-
 });
