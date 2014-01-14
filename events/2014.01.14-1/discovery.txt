@@ -1,0 +1,3 @@
+when: Tue Jan 14 12:45:00 PST 2014
+
+One availability zone in one of our datacenters is causing HTTP 500 errors in Persona. This is affecting 12.5% of Persona traffic.
