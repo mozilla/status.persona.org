@@ -1,0 +1,3 @@
+when: Wed Jan 15 13:22:00 PST 2014
+
+While fixing the root cause of the issue, 12.5% of users service was again disrupted.
