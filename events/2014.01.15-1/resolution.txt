@@ -1,0 +1,3 @@
+when: Wed Jan 15 13:04:21 PST 2014
+
+Traffic has been disabled at the affected datacenter. Person is functioning normally again.
