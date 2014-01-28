@@ -1,0 +1,3 @@
+when: Mon Jan 27 22:16:00 PST 2014
+
+Disks began to fill on a handful of very old systems resulting in intermittent errors when logging in for 25% of users.

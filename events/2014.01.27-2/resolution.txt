@@ -1,0 +1,3 @@
+when: Tue Jan 28 05:30:00 PST 2014
+
+Space was cleared and services restarted on the affected hosts restoring full services to Persona.
