@@ -1,0 +1,3 @@
+when: Mon Jan 27 17:17:00 PST 2014
+
+@yahoo.com and @gmail.com Persona logins have been restored to full function.

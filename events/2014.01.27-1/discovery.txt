@@ -1,0 +1,4 @@
+when: Mon Jan 27 17:09:00 PST 2014
+
+An operational process issue resulted in decomissioning the infrastucture supporting both the yahoo and google identity bridges which has caused Persona logins for users with @yahoo.com and @gmail.com email addresses to fail.
+
