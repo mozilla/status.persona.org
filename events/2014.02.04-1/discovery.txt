@@ -1,3 +1,3 @@
 when: Tue Feb  4 02:07:00 PST 2014
 
-Maintenace being performed by our internet connectivity provider</a> unexpectedly caused an interuption of connectivity at one of our datacenters. This resulted in password change and new acount signups to be unavailable for 50% of users. https://status.mozilla.org/en-US/detail/41/
+Maintenace being performed by our internet connectivity provider unexpectedly caused an interuption of connectivity at one of our datacenters. This resulted in password change and new acount signups to be unavailable for 50% of users. https://status.mozilla.org/en-US/detail/41/
