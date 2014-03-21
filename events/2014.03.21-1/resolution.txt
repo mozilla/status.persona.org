@@ -1,0 +1,3 @@
+when: Fri Mar 21 16:21:14 PDT 2014
+
+Service has been restored and Persona is fully functional again.

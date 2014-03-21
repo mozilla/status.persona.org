@@ -1,3 +1,3 @@
 when: Wed Jan 15 09:40:00 PST 2014
 
-Some servers in our Oregon datacenter are returning 500's causing a disruption in Persona service for some users.
+Some servers in our Oregon datacenter are returning 500's causing a disruption in Persona service for 6.25% of users.
