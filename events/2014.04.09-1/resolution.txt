@@ -1,0 +1,3 @@
+when: Wed Apr  9 15:18:00 PDT 2014
+
+A new certificate has been created and deployed re-enabling all gmail and yahoo users in Persona.
