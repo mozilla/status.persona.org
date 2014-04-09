@@ -1,3 +1,3 @@
-when: Wed Apr  9 14:50:30 PDT 2014
+when: Wed Apr  9 14:19:30 PDT 2014
 
 Persona logins for all users with gmail and yahoo email addresses have stopped working. This is due to an unintentional certificate revocation. We are generating a new certificate and will have the service back up shortly.
