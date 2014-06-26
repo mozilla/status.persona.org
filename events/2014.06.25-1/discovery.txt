@@ -1,0 +1,3 @@
+when: Wed Jun 25 20:51:52 PDT 2014
+
+One of our DB slaves' disk has filled resulting in a break in slave replication. Half of all Persona traffic is using an old view of the data. Any new accounts or password changes made after this point in time will not be available in Persona half of the time. Working to resolve the problem now.

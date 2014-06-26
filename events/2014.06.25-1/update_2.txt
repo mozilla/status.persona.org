@@ -1,0 +1,3 @@
+when: Thu Jun 26 02:34:12 PDT 2014
+
+A second webserver has begun failing taking the Persona service down completely. We are working to resolve the issue.

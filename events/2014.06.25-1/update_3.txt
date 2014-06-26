@@ -1,0 +1,3 @@
+when: Thu Jun 26 02:47:00 PDT 2014
+
+Persona webservers have been fixed and Persona service is back up globally. Database replication issues persist as mentioned previously.
