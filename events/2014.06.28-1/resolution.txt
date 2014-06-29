@@ -1,0 +1,3 @@
+when: Sat Jun 28 22:11:00 PDT 2014
+
+Our frontend tier of has been repaired and Persona is back at full functionality.
