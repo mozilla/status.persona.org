@@ -1,6 +1,6 @@
 body {
     background-color: #6a7b86;
-    background-image: url("/i/gradient-bg.png"), url("/i/grain.png");
+    background-image: url("i/gradient-bg.png"), url("i/grain.png");
     background-position: center top, center top;
     background-repeat: repeat-x, repeat;
     color: #fff;
@@ -40,7 +40,7 @@ html[xmlns] .cf {
 
 header .logo {
     float: left;
-    background: url("/i/persona-logo-wordmark.png") 0 0 no-repeat;
+    background: url("i/persona-logo-wordmark.png") 0 0 no-repeat;
     width: 205px;
     height: 50px;
 }
