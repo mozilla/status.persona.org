@@ -1,0 +1,3 @@
+when: Mon Jul  6 20:00:00 PDT 2014
+
+Our Pheonix datacenter continues to be unavailable. There has been a hardware failure on one of the core routers. Investigation by the Mozilla Network Operations Team is ongoing, and no ETA is available at this time.
