@@ -36,20 +36,20 @@ and `resolution(.txt)?`.
 2. write a `discovery.txt` file
 3. commit it
 4. push it up to github
-5. push updates to the personastatus awsbox (must be a core dev with a key in https://github.com/mozilla/identity-pubkeys)
+5. build and publish the update to gh-pages
 
-        git remote add personastatus.org app@personastatus.org:git
-        git push personastatus.org master
+        scripts/build-gh-pages.sh
+        scripts/publish-gh-pages.sh
 
 ## How you resolve an incident
 
 1. write a `resolution.txt` file in the directory
 2. commit it
 3. push it up to github
-4. push updates to the personastatus awsbox (must be a core dev with a key in https://github.com/mozilla/identity-pubkeys)
+5. build and publish the update to gh-pages
 
-        git remote add personastatus.org app@personastatus.org:git
-        git push personastatus.org master
+        scripts/build-gh-pages.sh
+        scripts/publish-gh-pages.sh
 
 ## Some details
 
