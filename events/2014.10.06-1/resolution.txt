@@ -1,0 +1,3 @@
+when: Mon Oct  6 21:10:00 PDT 2014
+
+Connectivity has been restored to our Pheonix datacenter. Persona is fully functioning again.
