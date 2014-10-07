@@ -1,7 +1,7 @@
 ## Realtime Service Status for Mozilla Persona
 
 This repository holds the status reporting system for Mozilla Persona
-to be hosted at http://personastatus.org.  People who care about 
+to be hosted at http://status.persona.org.  People who care about
 Persona can check the status of the service at that url.  People working
 on persona can report incidents by adding files to this repository.
 
@@ -21,7 +21,7 @@ file is plain text prose.  For example:
 
     We've isolated the problem, it's a bogus flux capacitor.  We're going to try to stop
     in the Aquila System to buy one from the semi-hostile Midorians there.
-    
+
 **NOTE:** Date parsing is pretty flexible.  When an event occurs, type `date` at your terminal,
 and then embed this in your report.
 
@@ -54,13 +54,13 @@ and `resolution(.txt)?`.
 ## Some details
 
 Scripts in `scripts/` are responsible for validating the pile of files in `events/`,
-turning them into JSON that the webpage (under `html/` can render) 
+turning them into JSON that the webpage (under `html/` can render)
 
 ## hacking on it
 
 1. clone it
 2. npm install
-3. mkdir html/data 
+3. mkdir html/data
 4. scripts/to_json.js > html/data/1.json
 5. scripts/run.js
 6. open http://127.0.0.1:8080/
