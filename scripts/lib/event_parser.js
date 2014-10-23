@@ -70,7 +70,7 @@ function massageEvent(data) {
 
   // sort updates and attach them
   o.updates = updates.sort(function(l,r) {
-    return l.when > r.when;
+    return l.when < r.when;
   });
 
   return o;
