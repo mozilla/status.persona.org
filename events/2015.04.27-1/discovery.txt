@@ -1,3 +1,0 @@
-when: Mon Apr 27 15:00:00 PDT 2015
-
-Planned maintence will/is/was preventing password changes and user signups
