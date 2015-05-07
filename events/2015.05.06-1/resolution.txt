@@ -1,3 +1,3 @@
-when: Thu May  6 17:00:00:00 PDT 2015
+when: Thu May  6 20:42:00:00 PDT 2015
 
-An unidentified failure caused persona to stop working in prod. Prod was rolled back to a previous deployment, and is now working again. User signups and password changes since 3pm PDT 4/20/15 were lost in the process.
+A config change meant for stage landed in prod. The change was located, and removed. No data has been lost. Persona is working again. Production has not been rolled back to any earlier stacks. It was not related to our database. It affected all users.
