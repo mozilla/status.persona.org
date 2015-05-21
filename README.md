@@ -46,7 +46,7 @@ and `resolution(.txt)?`.
 1. write a `resolution.txt` file in the directory
 2. commit it
 3. push it up to github
-5. build and publish the update to gh-pages
+5. build and publish the update to gh-pages:
 
         scripts/build-gh-pages.sh
         scripts/publish-gh-pages.sh
