@@ -97,6 +97,24 @@ section#right_now .details {
     font-style: italic;
 }
 
+#content .notice {
+    text-align: left;
+    background: #fad7d4;
+    border: 1px solid #f08a81;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 30px;
+}
+
+#content .notice p.summary {
+    font-weight: bold;
+}
+
+#content .notice p.link {
+    text-align: center;
+}
+
 #history {
     margin-top: 40px;
 }
