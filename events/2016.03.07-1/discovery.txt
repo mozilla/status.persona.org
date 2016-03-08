@@ -1,0 +1,3 @@
+when: Mon Mar 7 17:00:00:00 PST 2016
+
+SSL certificates were updated on the persona load balancers, causing some clients to fail certificate validation.

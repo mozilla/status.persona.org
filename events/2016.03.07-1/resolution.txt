@@ -1,0 +1,3 @@
+when: Mon Mar 7 21:20:00:00 PST 2016
+
+SSL Certificates were rolled back, fixing the issue.
