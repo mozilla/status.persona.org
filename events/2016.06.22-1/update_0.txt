@@ -1,0 +1,3 @@
+when: Tue Jun 21 18:23:00:00 PDT 2016
+
+verifiers were restarted and the problem appeared resolved.

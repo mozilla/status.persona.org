@@ -1,0 +1,3 @@
+when: Wed Jun 22 08:05:00:00 PDT 2016
+
+Verfier needed to be kicked a third time. Auto-recovery solution in progress.

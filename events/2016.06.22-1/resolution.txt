@@ -1,0 +1,3 @@
+when: Wed Jun 22 08:30:00:00 PDT 2016
+
+Checks have been put in place to auto-recover from unhealthy child processes in the verifier.

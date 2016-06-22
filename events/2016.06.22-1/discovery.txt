@@ -1,0 +1,3 @@
+when: Tue Jun 21 17:00:00:00 PDT 2016
+
+persona.org verfier has begun intermittently throwing {"status":"failure","reason":"no response returned from child process"}
