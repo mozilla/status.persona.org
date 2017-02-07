@@ -1,3 +1,11 @@
+# Status: Inactive
+
+This repository is no longer active,
+because the Persona service has been shut down.
+It remains only for historical purposes.
+
+--------
+
 ## Realtime Service Status for Mozilla Persona
 
 This repository holds the status reporting system for Mozilla Persona
